@@ -618,3 +618,18 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.homeLogo:hover .logoHover {
+  stroke-dasharray: 1000;
+  animation: draw 2s 2;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0
+  }
+  to {
+    stroke-dashoffset: 2000;
+  }
+}
+
